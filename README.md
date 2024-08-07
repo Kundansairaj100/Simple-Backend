@@ -6,7 +6,8 @@ This is a simple backend program written in JavaScript (Node.js Runtime). These 
 4) In "/token" to verify the token the user sends the token in the header and the backend will extract that and verify it.
    -> If verified the user will get a message verified with the username.
    -> If invalid the backend will respond with a 403 status code.
-5) Librabries used:
+5) Additional Features: Rate Limiter
+6) Librabries used:
    -> Express.js
    -> Zod
    -> Mongoose
